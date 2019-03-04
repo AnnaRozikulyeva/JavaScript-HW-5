@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacework_Rozikulyeva</title>
+    <style>
+        td {
+            width: 50px;
+            height: 50px;
+        }
+
+        tr:nth-child(2n+2) td:nth-child(2n + 1) {
+            background-color: black;
+        }
+
+        tr:nth-child(2n-1) td:nth-child(2n + 2) {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>HELLO!!</p>
+    <button class="hello">Нажми на меня</button>
+
+    </br>
+    </br>
+
+    <p class="changed"><b>Hello</b></p>
+    <button class="change">Поменять тэг b на h3</button>
+
+    </br>
+    </br>
+
+    <h2>Заголовок.</h2>
+    <ul class="ul_1">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    </br>
+    </br>
+
+    <h2>Калькулятор</h2>
+    <input type="number" id="num1">
+    <span id="operation">?</span>
+    <input type="number" id="num2">
+    <span>=</span>
+    <span id="result"></span><br>
+    <button id="sum">+</button>
+    <button id="minus">-</button>
+    <button id="div">/</button>
+    <button id="mult">*</button>
+
+    </br>
+    </br>
+    <h2>Новый список из задания 5</h2>
+    <ul class="ul5">
+        <li id="list">старый первый элемент списка</li>
+    </ul>
+
+
+    <script src="5lesson-1.js"></script>
+
+</body>
+
+</html>
