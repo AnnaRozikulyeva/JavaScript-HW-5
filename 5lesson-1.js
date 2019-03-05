@@ -2,13 +2,9 @@ var doc = document;
 
 //1.
 var button = doc.querySelector(".hello");
-button.addEventListener("click", function(event) {
-    if (button.innerHTML == "Нажми на меня") {
-        button.innerHTML = "Привет";
-    } else {
-        button.innerHTML = "Нажми на меня";
-    }
-});
+button.onclick = function() {
+	 doc.querySelector("#hello").innerText = 'Привет' ;
+};
 
 //2.
 
