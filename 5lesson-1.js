@@ -1,10 +1,10 @@
 var doc = document;
 
 //1.
-var button = doc.querySelector(".hello");
-button.onclick = function() {
-	 doc.querySelector("#hello").innerText = 'Привет' ;
-};
+
+function hello () {	 
+	doc.querySelector("#hello").innerText = 'Привет' ;
+} 
 
 //2.
 
